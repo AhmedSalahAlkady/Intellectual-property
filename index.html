@@ -181,7 +181,7 @@ $$('#mx div').forEach(e=>e.classList.toggle('hit',e.dataset.q==q));
 $('#r2').innerHTML=`<b>${Q[q][0]}</b><br>${Q[q][1]}`}
 $('#rx').oninput=$('#ry').oninput=mx;
 $('#gt').onclick=()=>{const q=[$('#a1').value,$('#a2').value].map(s=>s.trim()).filter(Boolean).map(encodeURIComponent).join(',');
-if(q)window.open('https://trends.google.com/trends/explore?q='+q,'_blank','noopener')};
+if(q)window.open('https://trends.google.com/trends/explore?q='+q+'&geo=EG&date=today%201-m','_blank','noopener')};
 $('#qz').onclick=e=>{const x=e.target.closest('.b');if(!x)return;
 $$('#qz .b').forEach(b=>b.classList.toggle('on',b==x));
 const M='الناتج الآلي الكامل لا يحظى بحماية كاملة، وتتوقف الحماية على إسهامك البشري الجوهري. والقواعد تختلف بين الدول: ففي الصين حكمت محكمة بكين للإنترنت (نوفمبر 2023) بحماية صورة ولّدها صاحبها بعد اختيار أكثر من 150 أمرًا وتعديلها حتى وصل إلى تصوره، بينما يشترط القضاء الأمريكي مؤلفًا بشريًا.';
